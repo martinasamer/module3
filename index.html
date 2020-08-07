@@ -1,0 +1,231 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>coursera module 3</title>
+    </head>
+  <body>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <style>
+
+          body {
+          font-size: 16px;
+          color: rgb(14, 10, 10);
+          background-color: rgb(231, 186, 227);
+          font-family: 'Lobster', cursive;
+               }
+
+
+          header{
+            margin-top: -20px;
+                }
+
+          #header-nav {
+              background-color: #ce5cbf;
+              color: white;
+                     }
+
+
+          #content {
+            
+            background-color: #ddc8c8;
+            border-radius: 30px;
+            padding: 15px 15px 15px 15px;
+            margin-top: 25px;
+            margin-bottom: 30px;
+            border: 1px solid rgb(143, 14, 121) ;
+                  }
+
+          .navbar-brand p {
+              color: white;
+              font-size: 20px;
+                          }
+
+          .navbar-brand a:focus, .navbar-brand a:hover {
+                text-decoration:none;
+                                      }
+
+          #nav-list a {
+              color: white;
+              text-align: center;
+          }
+
+          #nav-list a:hover {
+                background-color: #df99d9;
+            }
+
+          #home {
+              margin-bottom: 30px;
+          }
+
+          .row {
+              position: relative;
+          }
+
+          .row > div > article {
+              background-color: rgb(255, 255, 255);
+              text-align: justify;
+              margin-bottom: 20px;
+              padding: 12px;
+              color: rgb(245, 245, 245);    
+          }
+
+
+          @media (max-width: 767px) {
+              
+              .row > div > article {
+                  width: 70%;
+                  margin: 20px auto 0;
+           }
+                                    }
+ 
+
+      </style>
+
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-dark background-color" 
+          style="background-color: rgb(201, 117, 194); border-bottom: 1px solid rgb(143, 14, 121) ;"
+          class="navbar navbar-default" >
+       <div class="container">
+         <div class="navbar-header">
+           <div class="navbar-brand" >
+              <h1><a class="navbar-brand head" href="#" style="font-size :25px; ">Food, LCC</a></h1>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" >
+               <span class="navbar-toggler-icon" ></span>
+              </button>
+             <div class="collapse navbar-collapse text-center" id="navbarNav">
+               <ul id="nav-list" class="nav navbar-nav navbar-right" class="navbar-nav sm-auto d-lg-none" >
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Chicken">Chicken</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Beef">Beef</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Sushi">Sushi</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </nav>
+    </header>
+
+    <div id="main-content" class="container-fluid">
+            <h1 class="text-center" style="margin: 20px;">Our Menu</h1>
+          <section id="grid" class="container-fluid">
+            <div id="content" class=" col-xs-12" >
+                <a class="pull-left visible-md visible-lg"></a>
+
+                <p id="chicken" class="content-heading text-center" style="font-size: 25px;">Chicken</p>
+                <span class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                       Aenean faucibus rhoncus ante, in iaculis ipsum ullamcorper ut.
+                        Maecenas luctus ligula at diam imperdiet dignissim. Suspendisse quis sollicitudin odio, 
+                        non semper dolor. Duis ac tincidunt augue, eu eleifend dui. Integer orci risus, 
+                        cursus sed blandit et, tempor vel odio. Donec a rhoncus tellus. Cras sed vehicula orci. 
+                        Ut egestas velit turpis, ut maximus est pretium et. Nunc ut consequat metus.
+                        Morbi tempus turpis tortor, vitae semper lacus bibendum at. Sed vel rutrum erat, 
+                        ac imperdiet turpis.Maecenas ut consectetur leo, nec molestie risus. 
+                        Sed semper bibendum eros ac egestas. Nam lacinia sem quis magna ultricies dapibus. 
+                        Suspendisse potenti. Aliquam sed tellus id ex feugiat venenatis sit amet eu nibh. 
+                        Morbi nisl ligula, mollis et magna quis, feugiat lacinia sapien.
+                        Nulla auctor aliquet odio sed semper. Ut non ullamcorper ante. 
+                        Etiam feugiat justo mi, non malesuada nunc vulputate ac.
+                        Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                        Duis sagittis, lectus ut convallis dapibus, turpis mi porttitor massa,
+                        eget feugiat justo nisi id mi. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. Pellentesque fermentum diam tellus, 
+                        sed molestie sem tincidunt eu. 
+                        Orci varius natoque penatibus et magnis dis parturient montes, 
+                        nascetur ridiculus mus. Curabitur mattis blandit tristique.
+                        Sed a diam a arcu faucibus egestas. Pellentesque dignissim, 
+                        lacus consequat pulvinar rutrum,
+                        sem sapien efficitur elit, consequat elementum ante metus et ligula. 
+                        Praesent dictum sodales nisi sed consequat. Praesent quis semper risus.
+                        In sapien elit, aliquet sed porttitor eu, ultricies at mauris. 
+                        Etiam sed venenatis purus.
+
+                        <br>
+
+                        <a href="#top">Back to Top</a>
+        
+                </span> 
+
+            </div>
+      
+           <div id="content" class=" col-xs-12">
+             <p  id="Beef"class="content-heading text-center" style="font-size: 25px;">Beef</p>
+                    <span class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                      Aenean faucibus rhoncus ante, in iaculis ipsum ullamcorper ut.
+                      Maecenas luctus ligula at diam imperdiet dignissim. Suspendisse quis sollicitudin odio,
+                      non semper dolor. Duis ac tincidunt augue, eu eleifend dui. Integer orci risus,
+                       cursus sed blandit et,
+                      tempor vel odio. Donec a rhoncus tellus. Cras sed vehicula orci. 
+                      Ut egestas velit turpis, ut maximus est pretium et. Nunc ut consequat metus. 
+                      Morbi tempus turpis tortor, vitae semper lacus bibendum at. Sed vel rutrum erat,
+                       ac imperdiet turpis.
+                      Maecenas ut consectetur leo, nec molestie risus. Sed semper bibendum eros ac egestas.
+                      Nam lacinia sem quis magna ultricies dapibus. Suspendisse potenti.
+                      Aliquam sed tellus id ex feugiat venenatis sit amet eu nibh. Morbi nisl ligula, mollis et magna quis, 
+                      feugiat lacinia sapien. Nulla auctor aliquet odio sed semper.
+                      Ut non ullamcorper ante. Etiam feugiat justo mi, non malesuada nunc vulputate ac.
+                      Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                      Duis sagittis, lectus ut convallis dapibus, turpis mi porttitor massa, 
+                      eget feugiat justo nisi id mi.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum diam tellus,
+                      sed molestie sem tincidunt eu. Orci varius natoque penatibus et magnis dis parturient montes,
+                      nascetur ridiculus mus. Curabitur mattis blandit tristique. 
+                      Sed a diam a arcu faucibus egestas. 
+                      Pellentesque dignissim, lacus consequat pulvinar rutrum, sem sapien efficitur elit, 
+                      consequat elementum ante metus et ligula. Praesent dictum sodales nisi sed consequat. 
+                      Praesent quis semper risus. In sapien elit, aliquet sed porttitor eu, ultricies at mauris. 
+                      Etiam sed venenatis purus.
+                      
+                      <br>
+                      <a href="#top">Back to Top</a>
+                    </span> 
+            </div>
+
+
+           <div id="content" class="col-xs-12" >
+              <p  id="Sushi" class="content-heading text-center" style="font-size: 25px;">Sushi</p>
+              <span class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aenean faucibus rhoncus ante, in iaculis ipsum ullamcorper ut. 
+                Maecenas luctus ligula at diam imperdiet dignissim. Suspendisse quis sollicitudin odio, 
+                non semper dolor. Duis ac tincidunt augue, eu eleifend dui. Integer orci risus, cursus sed blandit et, 
+                tempor vel odio. Donec a rhoncus tellus. Cras sed vehicula orci. Ut egestas velit turpis, 
+                ut maximus est pretium et. Nunc ut consequat metus. Morbi tempus turpis tortor, 
+                vitae semper lacus bibendum at. Sed vel rutrum erat, ac imperdiet turpis.
+                Maecenas ut consectetur leo, 
+                nec molestie risus. Sed semper bibendum eros ac egestas.
+                 Nam lacinia sem quis magna ultricies dapibus. 
+                Suspendisse potenti. Aliquam sed tellus id ex feugiat venenatis sit amet eu nibh. 
+                Morbi nisl ligula, mollis et magna quis, feugiat lacinia sapien. 
+                Nulla auctor aliquet odio sed semper. 
+                Ut non ullamcorper ante. Etiam feugiat justo mi, non malesuada nunc vulputate ac.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis sagittis, 
+                lectus ut convallis dapibus, turpis mi porttitor massa, eget feugiat justo nisi id mi. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum diam tellus, 
+                sed molestie sem tincidunt eu. Orci varius natoque penatibus et magnis dis parturient montes, 
+                nascetur ridiculus mus. Curabitur mattis blandit tristique. Sed a diam a arcu faucibus egestas. 
+                Pellentesque dignissim, lacus consequat pulvinar rutrum, sem sapien efficitur elit, 
+                consequat elementum ante metus et ligula. Praesent dictum sodales nisi sed consequat. 
+                Praesent quis semper risus. In sapien elit, aliquet sed porttitor eu, ultricies at mauris. 
+                Etiam sed venenatis purus.
+                <br>
+                 <a href="#top">Back to Top</a>
+               </span>
+            </div>
+          </section>
+    </div>
+      <script src="js/jquery-2.1.4.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/script.js"></script>
+  </body>
+</html>
